@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+    margin: 0;
+    padding:0;
+}
+form{
+    font-size:20px;
+    background: pink;
+    max-width:450px;
+    margin:0 auto;
+    padding: 0 12px 12px 12px;
+}
+
+input[type=submit]:hover{
+    background:
+    purple;
+}
+        </style>
+        <title>Formulário de Inscrição</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <form name="form"action="" method="post">
+            <h1>Inscreva-se</h1>
+
+            <p class="nome">
+                <label>Nome:</label>
+                <input type="text" name="nome" placeholder="Informe seu nome" required="required">
+            </p>
+            <p class="email">
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="informe seu email" required="required">
+            </p>
+            <p class="idade">
+                <label>Idade:</label>
+                <input type="idade" name="idade" placeholder="idade">
+            </p>
+            
+                <label for="sugestao">Sugestões:</label>
+                <br>
+                <textarea id="sugestao" name="sugestao"
+                    rows="4" cols="40">
+Deixe a sua sugestão:
+                </textarea>  
+                <br>
+                <input type="submit">  
+            </p>
+            
+        </form>
+
+    </body>
+</html>
